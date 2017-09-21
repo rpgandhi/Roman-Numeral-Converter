@@ -10,17 +10,28 @@
   </head>
   <body>
     <div class="container">
+      <div class="jumbotron">
+        <h1>Roman Numeral Translator</h1>
+      </div>
 
-      <form id="romanForm">
-        <div class="form-group">
-          <label for "numberInput">Enter a number</label>
-          <input id="numberInput" class="form-control" type="text">
-        </div>
-        <button class="btn" type="submit">Submit</button>
-      </form>
+      <div class="well">
+        <form id="romanForm">
+          <div class="form-group">
+            <label for "numberInput">Enter a number</label>
+            <input id="numberInput" class="form-control" type="text">
+          </div>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
 
       <div id="output">
-        <h3>The roman numeral is:<span id="output1"></span></h3>
+        <div class="well">
+          <h3>The roman numeral is:<span id="output1"></span></h3>
+        </div>
+      </div>
+
+      <div id="background">
+          <img src="img/rome.jpg" class="stretch">
       </div>
 
     </div>
