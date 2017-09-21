@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
-
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url('https://fonts.googleapis.com/css?family=Archivo');
 
 #output {
   display: none;
 }
-/*body {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"); height: 200%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}*/
 
 #background {
     width: 100%;
@@ -24,22 +19,24 @@
   height: 100%;
 }
 
-.well, .jumbotron {
+.well {
   background-color: #efc062;
-  margin-left: 30em;
+  margin-top: 5em;
   text-align: center;
+  font-family: 'Archivo', sans-serif;
+  opacity: 0.9;
 }
 
 .jumbotron {
+  background-color: #efc062;
+  margin-top: 5em;
   text-align: center;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Archivo Black', sans-serif;
+  opacity: 0.9;
+
 }
 
-#numberInput {
-  width: 50%;
-  margin-left: 12em;
-}
-
-btn {
-  color: 
+.btn:hover {
+  color: white;
+  background-color: #2551ba;
 }
