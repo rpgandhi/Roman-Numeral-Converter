@@ -38,5 +38,6 @@
 
 .btn:hover {
   color: white;
-  background-color: #2551ba;
+  /*background-color: #2551ba;*/
+  background-color: #880f8c;
 }
